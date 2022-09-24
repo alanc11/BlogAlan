@@ -1,0 +1,61 @@
+@media (max-width: 900px) {
+    .blogs-post-container .post-container{
+        max-width: 45%;
+    }
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-info-container{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .profile-main-container{
+        height: auto;
+        flex-direction: column;
+    }
+    .profile-main-container img{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .profile-main-container .profile-info-container{
+        width: 90%;
+    }
+    .profile-main-container .profile-info-container h3{
+        font-weight: 400;
+    }
+    .profile-main-container .profile-info-container p{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    main .main-section-container h1{
+        height: auto;
+        width: 95%;
+        margin: 250px auto 40px auto;
+        color: #fff;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 18px rgb(234, 234, 234),
+    0 0 18px rgb(234, 234, 234),
+    0 0 5px rgb(234, 234, 234),
+    0 0 1px rgb(234, 234, 234),
+    0 0 10px rgb(234, 234, 234);
+    }
+    .contact-main-container{
+        display: none;
+    }
+   
+}
+@media (max-width: 600px) {
+    .blogs-post-container .post-container{
+        max-width: 95%;
+    }
+    .blogs-main-new h3{
+        font-size: 18px;
+    }
+ 
+}
